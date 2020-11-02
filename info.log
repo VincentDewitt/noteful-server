@@ -1,0 +1,12 @@
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"undefined is required","level":"error"}
+{"message":"undefined is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"newFoldertest is required","level":"error"}
+{"message":"test is required","level":"error"}
+{"message":"Folder Created with id = (1) and folder_name = (testfoldername)","level":"info"}
+{"message":"Bookmark with id 1 created","level":"info"}
+{"message":"Note with id 1 deleted.","level":"info"}
+{"message":"Folder with name 'testfoldername' deleted.","level":"info"}
