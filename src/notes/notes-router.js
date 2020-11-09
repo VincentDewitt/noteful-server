@@ -2,7 +2,7 @@ const express = require('express')
 const logger = require('../logger')
 const notesService = require('./notes-service')
 const Knex = require('knex')
-const { DB_URL } = require('../../config')
+const { DATABASE_URL } = require('../../config')
 const xss = require('xss')
 const path = require('path')
 
