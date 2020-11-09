@@ -1,6 +1,5 @@
 const express = require('express')
 const logger = require('./../logger')
-const { v4: uuid } = require('uuid')
 const folderService = require('./folder-service')
 const Knex = require('knex')
 const { DB_URL } = require('./../../config')

@@ -1,6 +1,5 @@
 const express = require('express')
 const logger = require('../logger')
-const { v4: uudid } = require('uuid')
 const notesService = require('./notes-service')
 const Knex = require('knex')
 const { DB_URL } = require('../../config')
