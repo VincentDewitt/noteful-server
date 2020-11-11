@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
-    "migrate": "postgrator --config postgrator-config.js"
+    "migrate": "postgrator --config postgrator-config.js",
+    "migrate:production": "heroku run npm run migrate",
+    "deploy":"git push heroku master",
+    "postdeploy":"npm run migrate:production"
   },
   "engines": {
     "node": "14.6.0"
