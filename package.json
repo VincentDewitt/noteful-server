@@ -8,7 +8,7 @@
     "start": "node src/server.js",
     "migrate": "postgrator --config postgrator-config.js",
     "migrate:production": "heroku run npm run migrate",
-    "deploy":"git push heroku master",
+    "deploy":"git push heroku main",
     "postdeploy":"npm run migrate:production"
   },
   "engines": {
