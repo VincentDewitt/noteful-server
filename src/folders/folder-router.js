@@ -13,7 +13,7 @@ const bodyParser = express.json()
 const serializeFolder = folder => ({
 
     folder_name: folder.folder_name,
-    folder_id: folder.folder_id,
+    folder_id: folder.id,
 })
 
 folderRouter
