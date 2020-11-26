@@ -10,6 +10,7 @@ const notesRouter = express.Router()
 const bodyParser = express.json()
 
 const serializeNote = note => ({
+    id: (note.id),
     title: xss(note.title),
     content: xss(note.content),
     folder: (note.folder),
